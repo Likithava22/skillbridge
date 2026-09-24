@@ -1,0 +1,67 @@
+/* ==========================================================================
+   Skillbridge Design System — Design Tokens & Variables
+   ========================================================================== */
+
+:root {
+  /* Brand Palettes */
+  --primary: #2563EB;
+  --primary-hover: #1D4ED8;
+  --primary-subtle: #EFF6FF;
+  
+  --navy-deep: #0F172A;
+  --navy-surface: #1E293B;
+  
+  --slate-50: #F8FAFC;
+  --slate-100: #F1F5F9;
+  --slate-200: #E2E8F0;
+  --slate-300: #CBD5E1;
+  --slate-400: #94A3B8;
+  --slate-500: #64748B;
+  --slate-600: #475569;
+  --slate-700: #334155;
+  --slate-800: #1E293B;
+  --slate-900: #0F172A;
+
+  /* Accent Indicators */
+  --emerald: #10B981;
+  --emerald-subtle: #ECFDF5;
+  --amber: #F59E0B;
+  --amber-dark: #D97706;
+  --rose: #EF4444;
+
+  /* Typography */
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace;
+
+  /* Radii & Elevation */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --shadow-subtle: 0 1px 3px 0 rgb(0 0 0 / 0.05), 0 1px 2px -1px rgb(0 0 0 / 0.05);
+  --shadow-card: 0 4px 6px -1px rgb(0 0 0 / 0.04), 0 2px 4px -2px rgb(0 0 0 / 0.04);
+  --shadow-elevated: 0 20px 25px -5px rgb(0 0 0 / 0.07), 0 8px 10px -6px rgb(0 0 0 / 0.07);
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Legacy & Semantic Mapping */
+  --ink: var(--slate-900);
+  --ink-soft: var(--slate-600);
+  --ink-faint: var(--slate-400);
+  --cream: var(--slate-50);
+  --panel: #FFFFFF;
+  --line: var(--slate-200);
+  --line-dark: var(--slate-800);
+  --blue: var(--primary);
+  --blue-soft: var(--primary-subtle);
+  --amber-soft: #FEF3C7;
+  --teal: var(--emerald);
+  --teal-soft: #D1FAE5;
+  --purple: #7C3AED;
+  --purple-soft: #EDE9FE;
+  --rust: var(--rose);
+  --rust-soft: #FEE2E2;
+  --radius: 12px;
+}

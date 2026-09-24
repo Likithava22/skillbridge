@@ -1,0 +1,19 @@
+{
+  "name": "skillbridge-backend",
+  "version": "1.0.0",
+  "description": "SkillBridge SIH26044 Backend - Academia-Industry Collaboration Platform",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.3",
+    "express": "^4.22.3",
+    "jsonwebtoken": "^9.0.3",
+    "xlsx": "^0.18.5"
+  }
+}
